@@ -24,10 +24,10 @@ function App() {
     }, []);
 
     return (
-        <Router>
+        <Router basename="/sanukadgblog">
             <Routes>
                 <Route
-                    path="/sanukadgblog"
+                    path="/"
                     element={
                         <div className="main_container">
                             <div className="secondary_container">
@@ -40,7 +40,7 @@ function App() {
                 />
 
                 <Route
-                    path="/sanukadgblog/post/:id"
+                    path="/post/:id"
                     element={
                         <>
                             <Nav />
