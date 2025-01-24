@@ -6,7 +6,10 @@ export default function Hero({ data }) {
         <div className={styles.main_container}>
             <div className={styles.container1}>
                 <p className={styles.hero_title}>Hello World!</p>
-                <img src="/nichijou.png" className={styles.hero_image} />
+                <img
+                    src={import.meta.env.BASE_URL + "/nichijou.png"}
+                    className={styles.hero_image}
+                />
             </div>
             <div className={styles.container2}>
                 {data.map((post) => (

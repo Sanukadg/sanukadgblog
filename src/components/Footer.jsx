@@ -19,7 +19,10 @@ export default function Footer() {
                     <a href="https://instagram.com/_sg.media">Instagram</a>
                 </div>
             </div>
-            <img src="/settingsico.svg" id={styles.icon} />
+            <img
+                src={import.meta.env.BASE_URL + "/settingsico.svg"}
+                id={styles.icon}
+            />
         </div>
     );
 }

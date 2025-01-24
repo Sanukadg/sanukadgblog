@@ -24,7 +24,7 @@ function App() {
     }, []);
 
     return (
-        <Router basename="/sanukadgblog">
+        <Router basename={import.meta.env.BASE_URL}>
             <Routes>
                 <Route
                     path="/"
