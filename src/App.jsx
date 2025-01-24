@@ -24,7 +24,7 @@ function App() {
     }, []);
 
     return (
-        <Router>
+        <Router basename="/sanukadgblog">
             <Routes>
                 <Route
                     path="/"
