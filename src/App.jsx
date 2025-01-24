@@ -39,7 +39,16 @@ function App() {
                     }
                 />
 
-                <Route path="/post/:id" element={<Post data={data} />} />
+                <Route
+                    path="/post/:id"
+                    element={
+                        <>
+                            <Nav />
+                            <Post data={data} />
+                            <Footer />
+                        </>
+                    }
+                />
             </Routes>
         </Router>
     );

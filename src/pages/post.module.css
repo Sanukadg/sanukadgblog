@@ -1,0 +1,47 @@
+p {
+    font-family: "Inter", sans-serif;
+}
+
+.main_container {
+    background-color: #f0eae2;
+    min-height: 100vh;
+}
+
+.post_container {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.content {
+    max-width: 850px;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.date {
+    font-size: 24px;
+}
+
+.image {
+    max-width: 750px;
+    border-radius: 21px;
+}
+
+.image_gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+    margin-bottom: 15px;
+}
