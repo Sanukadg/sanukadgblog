@@ -52,3 +52,51 @@
     color: #201a13;
     background-color: #f0eae2;
 }
+
+/* Media query for small screens (mobile) */
+@media (max-width: 768px) {
+    .links_button {
+        font-size: 18px; /* Reduce font size for mobile */
+    }
+
+    .overlay {
+        padding: 10px; /* Add some padding to the overlay */
+    }
+
+    .popup {
+        width: 90%; /* Set popup width to 90% of the screen */
+        height: auto; /* Adjust height to content */
+        min-width: 350px; /* Set a minimum width */
+        min-height: 350px; /* Set a minimum height */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .close_button {
+        font-size: 18px; /* Smaller close button font size */
+        padding: 10px 20px; /* Adjust padding */
+        border-radius: 20px; /* Slightly reduce border radius */
+    }
+}
+
+/* Media query for extra small screens (e.g., phones) */
+@media (max-width: 480px) {
+    .links_button {
+        font-size: 16px; /* Further reduce font size */
+    }
+
+    .overlay {
+        padding: 5px; /* Reduce padding for extra small screens */
+    }
+
+    .popup {
+        min-width: 300px; /* Adjust minimum width for very small screens */
+        min-height: 300px; /* Adjust minimum height */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .close_button {
+        font-size: 16px; /* Further reduce font size */
+        padding: 8px 15px; /* Adjust padding */
+        border-radius: 15px; /* Make border radius smaller */
+    }
+}

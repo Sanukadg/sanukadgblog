@@ -45,3 +45,67 @@ p {
     max-width: 750px;
     margin-bottom: 15px;
 }
+
+/* Media query for small screens (mobile) */
+@media (max-width: 768px) {
+    p {
+        font-size: 16px; /* Adjust font size for paragraphs */
+    }
+
+    .main_container {
+        padding: 15px; /* Add some padding to the container */
+    }
+
+    .post_container {
+        padding-top: 20px; /* Reduce padding for smaller screens */
+        gap: 15px; /* Adjust gap for better alignment */
+    }
+
+    .content {
+        max-width: 100%; /* Set content to take full width */
+    }
+
+    .title {
+        font-size: 40px; /* Reduce title font size */
+    }
+
+    .date {
+        font-size: 20px; /* Reduce date font size */
+    }
+
+    .image {
+        max-width: 100%; /* Make image responsive */
+        border-radius: 10px; /* Reduce border radius for images */
+    }
+
+    .image_gallery {
+        flex-direction: column; /* Stack images vertically */
+        max-width: 100%; /* Ensure gallery width fits screen */
+    }
+}
+
+/* Media query for extra small screens (e.g., phones) */
+@media (max-width: 480px) {
+    p {
+        font-size: 14px; /* Further reduce font size for very small screens */
+    }
+
+    .title {
+        font-size: 32px; /* Further reduce title font size */
+    }
+
+    .date {
+        font-size: 18px; /* Reduce date font size */
+    }
+
+    .image {
+        max-width: 100%; /* Ensure image scales properly */
+        border-radius: 8px; /* Further reduce image border radius */
+    }
+
+    .image_gallery {
+        gap: 10px; /* Reduce gap between images */
+        flex-direction: column; /* Stack images vertically */
+    }
+}
+

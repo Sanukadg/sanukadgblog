@@ -30,3 +30,43 @@
 #logo {
     margin-left: 25px;
 }
+
+/* Media query for small screens (mobile) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically for smaller screens */
+        height: auto; /* Allow container height to adjust automatically */
+        gap: 20px; /* Reduce the gap between elements */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .contact_button {
+        margin-right: 0; /* Remove right margin */
+        font-size: 18px; /* Adjust font size for smaller screens */
+        padding: 10px 20px; /* Adjust padding for buttons */
+        border-radius: 20px; /* Slightly reduce border radius */
+    }
+
+    #logo {
+        margin-left: 0; /* Remove left margin on smaller screens */
+        font-size: 30px; /* Adjust logo size */
+    }
+}
+
+/* Media query for extra small screens (e.g., phones) */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px; /* Reduce padding */
+        gap: 15px; /* Reduce gap between elements */
+    }
+
+    .contact_button {
+        font-size: 16px; /* Further adjust font size */
+        padding: 8px 15px; /* Make buttons smaller */
+        border-radius: 15px; /* Make border radius smaller */
+    }
+
+    #logo {
+        font-size: 25px; /* Further reduce logo size */
+    }
+}

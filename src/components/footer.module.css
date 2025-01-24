@@ -52,3 +52,69 @@
     z-index: 1; /* Ensure the logo is above the icon */
     position: relative;
 }
+
+/* Media query for small screens (mobile) */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px; /* Reduce padding for smaller screens */
+        min-height: 200px; /* Adjust minimum height for smaller screens */
+    }
+
+    .container p {
+        font-size: 18px; /* Reduce font size */
+        margin-top: 15px; /* Reduce top margin */
+    }
+
+    .button_container {
+        margin-top: 5px; /* Reduce space between the paragraph and buttons */
+        gap: 10px; /* Reduce gap between buttons */
+    }
+
+    .button {
+        padding: 10px 15px; /* Adjust button size */
+        font-size: 16px; /* Adjust button font size */
+    }
+
+    #icon {
+        bottom: -50px; /* Adjust position for better visibility */
+        right: -40px; /* Keep the icon in place without overlapping */
+        width: 300px; /* Scale the icon for smaller screens */
+        transform: rotate(5deg); /* Slight rotation for mobile */
+    }
+
+    #footer_logo {
+        font-size: 35px; /* Adjust logo size */
+    }
+}
+
+/* Media query for extra small screens (e.g., phones) */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px; /* Reduce padding even more */
+        min-height: 180px; /* Further reduce minimum height */
+    }
+
+    .container p {
+        font-size: 16px; /* Further reduce font size */
+    }
+
+    .button_container {
+        gap: 8px; /* Reduce gap further */
+    }
+
+    .button {
+        padding: 8px 12px; /* Make buttons smaller */
+        font-size: 14px; /* Adjust button font size */
+    }
+
+    #icon {
+        bottom: -30px; /* Adjust icon position */
+        right: -30px; /* Keep it from overlapping too much */
+        width: 200px; /* Reduce the size of the icon */
+        transform: rotate(0deg); /* Remove rotation for phones */
+    }
+
+    #footer_logo {
+        font-size: 30px; /* Adjust logo size */
+    }
+}
