@@ -5,7 +5,7 @@
             "title": "Simulator racing or Arcade racing",
             "date": "Jul 16",
             "author": "Sanuka",
-            "img": "/post1/simracing.jpeg",
+            "img": "/sanukadgblog/post1/simracing.jpeg",
             "alt": "sim racing picture",
             "content": [
                 {
@@ -67,7 +67,7 @@
             "title": "'Vertex Ridge' FD RX7 D1 project by A'pexi",
             "date": "Jun 7",
             "author": "Sanuka",
-            "img": "/post2/picture1-1.png",
+            "img": "/sanukadgblog/post2/picture1-1.png",
             "alt": "sim racing picture",
             "content": [
                 {
@@ -76,7 +76,7 @@
                 },
                 {
                     "type": "image",
-                    "image": "/post2/picture1-2.png"
+                    "image": "/sanukadgblog/post2/picture1-2.png"
                 },
                 {
                     "type": "paragraph",
@@ -92,7 +92,7 @@
                 },
                 {
                     "type": "image",
-                    "image": "/post2/picture1-1.png"
+                    "image": "/sanukadgblog/post2/picture1-1.png"
                 },
                 {
                     "type": "paragraph",
@@ -106,28 +106,28 @@
                     "type": "imageGallery",
                     "images": [
                         {
-                            "original": "/post2/unknown-3.jpg"
+                            "original": "/sanukadgblog/post2/unknown-3.jpg"
                         },
                         {
-                            "original": "/post2/apex_test_day_3_1.jpg"
+                            "original": "/sanukadgblog/post2/apex_test_day_3_1.jpg"
                         },
                         {
-                            "original": "/post2/e4xll4qvgai0661.webp"
+                            "original": "/sanukadgblog/post2/e4xll4qvgai0661.webp"
                         },
                         {
-                            "original": "/post2/e4xlme3vcaupnwq.webp"
+                            "original": "/sanukadgblog/post2/e4xlme3vcaupnwq.webp"
                         },
                         {
-                            "original": "/post2/e4xlmfcvuaqcg-t.webp"
+                            "original": "/sanukadgblog/post2/e4xlmfcvuaqcg-t.webp"
                         },
                         {
-                            "original": "/post2/e4xlmsbvuau24pa.webp"
+                            "original": "/sanukadgblog/post2/e4xlmsbvuau24pa.webp"
                         },
                         {
-                            "original": "/post2/pt7ps23amwf71.webp"
+                            "original": "/sanukadgblog/post2/pt7ps23amwf71.webp"
                         },
                         {
-                            "original": "/post2/unknown-2.jpg"
+                            "original": "/sanukadgblog/post2/unknown-2.jpg"
                         }
                     ]
                 },
@@ -137,7 +137,7 @@
                 },
                 {
                     "type": "image",
-                    "image": "/post2/uyutnenko_rx7fd_vertex_ddm_gts_tsukuba_16_52_22__z_gtcine.webp"
+                    "image": "/sanukadgblog/post2/uyutnenko_rx7fd_vertex_ddm_gts_tsukuba_16_52_22__z_gtcine.webp"
                 },
                 {
                     "type": "paragraph",
