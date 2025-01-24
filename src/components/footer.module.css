@@ -1,0 +1,54 @@
+.container {
+    position: relative; /* Enable relative positioning for the icon */
+    background-color: #201a13;
+    padding: 25px;
+    min-height: 258px;
+    overflow: hidden; /* Prevent the icon from causing scrollbars */
+}
+
+.container p {
+    font-size: 20px;
+    color: #f0eae2;
+    margin-top: 25px;
+    z-index: 1; /* Ensure the text is above the icon */
+    position: relative; /* Keep it layered properly */
+}
+
+.button_container {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    z-index: 1; /* Ensure buttons are above the icon */
+    position: relative; /* Keep it layered properly */
+}
+
+.button {
+    border-radius: 25px;
+    padding: 13px 20px;
+    background-color: #f0eae2;
+    border: 2px solid #f0eae2;
+    z-index: 1; /* Keep buttons on top of the icon */
+    position: relative;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #f0eae2;
+    background-color: #201a13;
+}
+
+#icon {
+    position: absolute; /* Absolute positioning for the gear */
+    bottom: -85px; /* Adjust this to align the gear icon */
+    right: -50px; /* Push it partially outside the container */
+    width: 533px; /* Set the size of the icon */
+    transform: rotate(10deg);
+    z-index: 0; /* Place the icon behind all other elements */
+}
+
+#logo {
+    font-size: 45px;
+    color: #f0eae2;
+    z-index: 1; /* Ensure the logo is above the icon */
+    position: relative;
+}

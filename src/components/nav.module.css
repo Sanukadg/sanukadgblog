@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    gap: 35px;
+}
+
+.spacer {
+    width: 100%;
+}
+
+.contact_button {
+    margin-right: 25px;
+    border: 1px solid #201a13;
+    color: #f0eae2;
+    font-size: 20px;
+    background-color: #201a13;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+.contact_button:hover {
+    cursor: pointer;
+    color: #201a13;
+    border: 2px solid #201a13;
+    background-color: #f0eae2;
+}
+
+.links_button{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.links_button:hover{
+    border-bottom: 2px solid #201a13;
+}
+
+#logo {
+    margin-left: 25px;
+}

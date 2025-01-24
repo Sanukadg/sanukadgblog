@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "junicode";
+    src: url("./assets/fonts/Junicode.ttf") format("ttf"),
+        url("./assets/fonts/Junicode-Bold.ttf") format("ttf"),
+        url("./assets/Junicode-BoldItalic.ttf") format("ttf"),
+        url("./assets/Junicode-Italic.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: #201A13;
+    padding: 0;
+    margin: 0;
+}
