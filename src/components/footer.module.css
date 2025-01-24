@@ -46,7 +46,7 @@
     z-index: 0; /* Place the icon behind all other elements */
 }
 
-#logo {
+#footer_logo {
     font-size: 45px;
     color: #f0eae2;
     z-index: 1; /* Ensure the logo is above the icon */
