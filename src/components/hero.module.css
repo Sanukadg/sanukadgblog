@@ -14,14 +14,6 @@
     left: 10%;
 }
 
-/* Hero image stays the same but will be behind the title */
-.hero_image {
-    position: absolute;
-    left: 55%;
-    width: 655px;
-    z-index: 0;
-}
-
 .container2 {
     position: relative;
     margin-top: 350px;
