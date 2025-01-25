@@ -1,4 +1,7 @@
-p {
+.main_container p,
+.main_container h1,
+.main_container h2,
+.main_container h3 {
     font-family: "Inter", sans-serif;
 }
 
@@ -38,7 +41,7 @@ p {
     border-radius: 21px;
 }
 
-.image_gallery{
+.image_gallery {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,4 +111,3 @@ p {
         flex-direction: column; /* Stack images vertically */
     }
 }
-
