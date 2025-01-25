@@ -65,6 +65,7 @@ export default function Hero({ data }) {
                     <img
                         key={index}
                         src={image.src}
+                        className={styles.hero_image}
                         style={{
                             position: "absolute",
                             zIndex: "0",

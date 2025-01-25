@@ -56,10 +56,13 @@
     }
 
     .hero_image {
-        left: 70%; /* Adjust image position */
-        width: 80%; /* Scale image to fit smaller screens */
-        width: 555px;
-        transform: translateX(-50%); /* Center the image horizontally */
+        left: 50%; /* Adjust image position */
+        max-width: 355px;
+        transform: translateX(-30%); /* Center the image horizontally */
+    }
+
+    .container2 {
+        margin-left: 40%; /* Align content to the left */
     }
 }
 

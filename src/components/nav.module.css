@@ -31,11 +31,12 @@
     margin-left: 25px;
 }
 
-/* Media query for small screens (mobile) */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .container {
         flex-direction: column; /* Stack elements vertically for smaller screens */
         height: auto; /* Allow container height to adjust automatically */
+        justify-content: center;
+        align-items: center;
         gap: 20px; /* Reduce the gap between elements */
         padding: 20px; /* Add padding for better spacing */
     }
