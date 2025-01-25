@@ -7,60 +7,8 @@
             "author": "Sanuka",
             "img": "/sanukadgblog/post1/simracing.jpeg",
             "alt": "sim racing picture",
-            "content": [
-                {
-                    "type": "paragraph",
-                    "text": "Do you prefer Simulator racing games or casual, and why?"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "I prefer simulator racing games because I find them a lot more replayable and I enjoy at least somewhat realistic physics. Not saying casual racing games are bad. I don’t mind playing them when I want to relax, depending on the mood. "
-                },
-                {
-                    "type": "paragraph",
-                    "text": "What does simluator games do better than casual?"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Obvious answer is physics. All sims are based on circuit racing, rarely they are ever about street racing. Therefore simulator games are a great way for motorsport fans to drive their favorite racing cars in their favorite circuits while immersing themselves. And even participate in circuit races online, with friends or even strangers. Which is helped by the fact that almost all simulator racing games have a huge community built around it. No casual racing game can do that. Lastly, simulator racing games can also be a stepping stone to achieve some people’s dream of becoming a real racing driver themselves."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "What does casual games do better than simulator?"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Making the most out of a simulator racing game requires some niche pieces of gear. Some very expensive. But most people don’t bother with all that. So when you are just hanging out with a bunch of friends or just chilling by your own, you can fire up any casual racing game and play it, even while laying on your bed. And also I think anyone can enjoy playing a casual round of Forza or NFS even if they aren’t particularly into cars or motorsport."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "One more thing casual games have over sims is the freedom of creativity the developers have with casual games. They are not limited by realistic physics or even realistic graphics. So they can come up with very creative game concepts, which have proved to be very popular among the fans. eg: Burnout, Driver SF, AutoModellista, NFS HP, etc."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Do you think companies have switched from making high end simulator games to casual racing games? and why?"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Yes and No, making a good simulator game is not an easy feat. From laser scanning racing circuits and building a physics engine to modelling the 3D models, are just some daunting tasks which are not practically possible for a small indie dev team to do. Therefore while I think there are less and less new entries to the genre, the devs who have always been doing it, are and will still keep doing it."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Is this the right switch? define your answer"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Just because casual games have a bigger audience, I believe it is the right decision for indie developers. Because if they can bring their creative new ideas to a product people come to love, they can grow and do even bigger projects in the future. As for big name “AAA” developers, I don’t think they should switch. They have the resources and talent to make good sims, however they rarely succeed. which is evident by looking at the active sim racing landscape. But these companies are commercial businesses so they can’t keep making games at a loss because burning passion is not enough to keep a company afloat. For that reason they are inclined to make games with bigger audience and bigger potential profit. It’s hard to argue with that."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Ideally what would you like to see in the racing game industry, more casual or more simulators?"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "At the end of the day racing sims have a niche target audience. Ideally, I would like to see more casual games with interesting, creative and unique concepts which will bring more people to the genre whom might even spark their interest in cars and car culture. Ultimately building a big and strong community is good for both the industry and also the individual gamers, casual and sim."
-                }
-            ]
+            "mdFile": "/sanukadgblog/posts/post1.md",
+            "content": []
         },
         {
             "id": 2,
@@ -69,38 +17,15 @@
             "author": "Sanuka",
             "img": "/sanukadgblog/post2/picture1-1.png",
             "alt": "sim racing picture",
+            "mdFile": "/sanukadgblog/posts/post2.md",
             "content": [
-                {
-                    "type": "paragraph",
-                    "text": "The D1 Professional Drift championship began in the year 2001. Since then, it saw huge improvements as famous tuning houses joined the series backing drivers. Youichi Imamura, one of them, began driving as an entrant for the team “A’PEXi” in the second season of the D1GP in the bright yellow Toyota Altezza. However, his performance was less than ideal as he couldn’t even make it past qualifying in the first three rounds. This is a sheer contrast to his performance from last year, where he managed to secure 2nd place in the championship with as much as one win in hand."
-                },
                 {
                     "type": "image",
                     "image": "/sanukadgblog/post2/picture1-2.png"
                 },
                 {
-                    "type": "paragraph",
-                    "text": "The APEXi FD3S RX-7 made its debut in the D1GP in the year 2002 as a replacement for his Toyota Altezza which was underperforming."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Immediately, it became a threat in the following rounds, proving how good of a weaponry the FD3S was, especially in the hands of Imamura. Walking up the brackets, he secured two wins in that season with the RX7. (Tsukuba and Nikko)"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Somehow upping that fantastic debut season, he managed to secure two wins again in the following year 2003, which was enough for him to secure the D1GP championship."
-                },
-                {
                     "type": "image",
                     "image": "/sanukadgblog/post2/picture1-1.png"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "Most D1GP cars in those days were not only competition cars but also showcases of company products. The beautifully plastered RX7 was no different. It was equipped with various A’pexi engine, suspension, and exhaust parts such as N1 dampers and powerFC ECU. Not only that, but they also partnered with other companies to showcase Aero kits and wheels, such as Vertex for the Vertex Ridge Aero kit and Gram lights for the 57pro wheelset."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "In the following years, the car underwent minor changes such as small livery bits and wheel changes and remained at the top of the grid finishing third in both 2004 and 2005. After that Imamura and the Apexi RX7 parted ways as he joined ORC with Top Secret for the 2006 season in a new Top Secret built failrladyZ."
                 },
                 {
                     "type": "imageGallery",
@@ -132,16 +57,8 @@
                     ]
                 },
                 {
-                    "type": "paragraph",
-                    "text": "This blog post was about the A’pexi D1GP RX7 driven by Youichi Imamura. I got the opportunity to design a livery for a vertex Ridge RX7 in Assetto Corsa. Where I tried to recreate Imamura’s D1 machine."
-                },
-                {
                     "type": "image",
                     "image": "/sanukadgblog/post2/uyutnenko_rx7fd_vertex_ddm_gts_tsukuba_16_52_22__z_gtcine.webp"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "The finished livery in Assetto Corsa"
                 }
             ]
         }
