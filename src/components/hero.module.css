@@ -57,6 +57,20 @@
     color: #666666;
 }
 
+@media (max-width: 1080px) {
+    .hero_title {
+        font-size: 100px; /* Decrease font size for better fit */
+        left: 5%; /* Adjust position for smaller screens */
+    }
+
+    .hero_image {
+        left: 70%; /* Adjust image position */
+        width: 80%; /* Scale image to fit smaller screens */
+        width: 555px;
+        transform: translateX(-50%); /* Center the image horizontally */
+    }
+}
+
 /* Media query for small screens (mobile) */
 @media (max-width: 768px) {
     .container1 {
@@ -109,4 +123,3 @@
         margin-top: 200px; /* Adjust spacing */
     }
 }
-
