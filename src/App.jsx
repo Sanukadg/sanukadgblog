@@ -12,9 +12,7 @@ function App() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(
-                    import.meta.env.BASE_URL + "/data/data.json"
-                ); // Fetching the properties data from the JSON file
+                const response = await fetch("/data/data.json"); // Fetching the properties data from the JSON file
                 if (!response.ok) throw new Error("Failed to fetch JSON");
                 const json = await response.json();
                 setData(json.posts);
