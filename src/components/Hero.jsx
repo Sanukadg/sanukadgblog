@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 export default function Hero({ data }) {
     const images = [
         {
-            src: import.meta.env.BASE_URL + "/nichijou.png",
+            src: "/nichijou.png",
             style: {
                 maxWidth: "655px",
                 maxHeight: "370px",
@@ -13,7 +13,7 @@ export default function Hero({ data }) {
             },
         },
         {
-            src: import.meta.env.BASE_URL + "/nichijou2.png",
+            src: "/nichijou2.png",
             style: {
                 maxWidth: "355px",
                 maxHeight: "370px",
@@ -21,7 +21,7 @@ export default function Hero({ data }) {
             },
         },
         {
-            src: import.meta.env.BASE_URL + "/nichijou3.png",
+            src: "/nichijou3.png",
             style: {
                 maxWidth: "455px",
                 maxHeight: "570px",
@@ -29,7 +29,7 @@ export default function Hero({ data }) {
             },
         },
         {
-            src: import.meta.env.BASE_URL + "/nichijou4.png",
+            src: "/nichijou4.png",
             style: {
                 maxWidth: "555px",
                 maxHeight: "310px",
@@ -37,7 +37,7 @@ export default function Hero({ data }) {
             },
         },
         {
-            src: import.meta.env.BASE_URL + "/nichijou5.png",
+            src: "/nichijou5.png",
             style: {
                 maxWidth: "555px",
                 maxHeight: "310px",
