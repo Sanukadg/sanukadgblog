@@ -53,6 +53,14 @@
     background-color: #f0eae2;
 }
 
+.link {
+    color: rgb(0, 137, 205);
+}
+
+.link:hover {
+    border-bottom: 2px solid rgb(0, 137, 205);
+}
+
 /* Media query for small screens (mobile) */
 @media (max-width: 768px) {
     .links_button {

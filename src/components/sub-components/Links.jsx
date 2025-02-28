@@ -17,8 +17,16 @@ export default function Links() {
             {isOpen && (
                 <div className={styles.overlay}>
                     <div className={styles.popup}>
-                        <p>LINK 1</p>
-                        <p>LINK 2</p>
+                        <h3>
+                            PredicTea -{" "}
+                            <a
+                                href="https://www.predic-tea.com"
+                                className={styles.link}
+                            >
+                                predic-tea.com
+                            </a>
+                        </h3>
+
                         <button
                             onClick={toggleConfigurator}
                             className={styles.close_button}
